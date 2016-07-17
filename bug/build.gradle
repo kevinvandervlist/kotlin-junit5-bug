@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    compile 'io.reactivex:rxkotlin:0.55.0'
+    compile 'com.github.salomonbrys.kodein:kodein:2.7.1'
+    compile 'com.github.salomonbrys.kotson:kotson:2.2.1'
+    compile 'org.postgresql:postgresql:9.4.1208'
+    compile 'org.jetbrains.exposed:exposed:0.5.0'
+}
